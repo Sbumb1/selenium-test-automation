@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HeaderSuite" verbose="1" parallel="tests" thread-count="1">
+    <test name="SearchForProduct">
+        <classes>
+            <class name="emagmain.EmagMainPageHeaderTest"/>
+        </classes>
+    </test>
+</suite>
